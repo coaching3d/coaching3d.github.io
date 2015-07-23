@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 5
+date: 2014-07-14
+img: safe.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Je me sens beaucoup mieux, moi qui n’y croyais pas ! J’ai à nouveau confiance en moi, j’affine mes choix.Ca fait du bien de me retrouver !
+issue: CONFIANCE EN SOI
+---

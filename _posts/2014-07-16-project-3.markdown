@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: circus.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Je voudrais te remercier, pour ton aide, et le temps que tu as passé avec moi, les résultats sont magnifiques, c’est génial !
+issue: PROCRASTINATION
+---
