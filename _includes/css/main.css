@@ -473,6 +473,11 @@ blockquote p {
   display: inline;
 }
 
+.img-text {
+    float: right;    
+    padding: 5px;
+}
+
 #map-canvas {
         width: 500px;
         height: 400px;
