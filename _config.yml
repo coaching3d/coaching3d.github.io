@@ -24,9 +24,7 @@ footer:
   credits: Crédits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url:
+social:  
   - title: facebook
     url: https://www.facebook.com/pages/Coaching-Concept-3D/505663926253688
 
