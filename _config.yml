@@ -3,9 +3,9 @@ title: Coaching Concept 3D
 title-part1: Coaching
 title-part2: Concept 3D
 slogan: Votre premier pas vers votre objectif
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: coachingconcept3d@gmail.com
+url: http://www.coaching-concept3d.be
+description: ""
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -28,7 +28,7 @@ social:
   - title: twitter
     url:
   - title: facebook
-    url: https://www.facebook.com/marianne.bousson
+    url: https://www.facebook.com/pages/Coaching-Concept-3D/505663926253688
 
 # Postal address (add as many lines as necessary)
 address:
