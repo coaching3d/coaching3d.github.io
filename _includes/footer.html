@@ -3,15 +3,16 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-6">
+                    <div class="footer-col col-md-4">
                         <h3>{{ site.footer.location }}</h3>
                         <p>
+                          Coaching Concept 3D<br>
                             {% for adress in site.address %}
                                 {{ adress.line }} <br>
 		                    {% endfor %}
                         </p>
                     </div>
-                    <div class="footer-col col-md-6">
+                    <div class="footer-col col-md-4">
                         <h3>{{ site.footer.social }}</h3>
                         <ul class="list-inline">
                             {% for network in site.social %}
@@ -21,7 +22,16 @@
 		                    {% endfor %}
                         </ul>
                     </div>
-
+                    <div class="footer-col col-md-4">
+                        <h3>{{ site.footer.links }}</h3>
+                        <ul class="list-inline">
+                            {% for link in site.links %}
+                            <li>
+                                <a href="{{ link.url }}" ><span>{{ link.description }}</span></a>
+                            </li>
+		                    {% endfor %}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

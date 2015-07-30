@@ -22,9 +22,10 @@ footer:
   location: Adresse
   social: Réseaux Sociaux
   credits: Crédits
+  links: Liens
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:  
+social:
   - title: facebook
     url: https://www.facebook.com/pages/Coaching-Concept-3D/505663926253688
 
@@ -32,6 +33,11 @@ social:
 address:
   - line: 20 Rue Pont Sainte Maxence
   - line: B-5060 Auvelais
+
+links:
+  - title: certificate
+    description: Mental Coaching Academy
+    url: http://www.mentalcoachingacademy.com/
 
 # Credits content
 credits: ''
