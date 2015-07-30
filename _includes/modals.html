@@ -15,26 +15,21 @@
                             <h2>{{ post.issue }}</h2>
                             <hr class="star-primary">
                             <img id="modal-image-{{ post.modal-id }}" src="img/portfolio/{{ post.img }}" class="img-responsive img-centered img-circle" alt="{{ post.alt }}">
-                            <blockquote>{{ post.description }}</blockquote>
+                            <blockquote>{{ post.description }}
+                              <footer>{{ post.client }}</footer>
+                            </blockquote>
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Revenir au site</button>
                         </div>
                     </div>
                 </div>
+                <div class="row footer-below">
+                    <div class="col-lg-8 col-lg-offset-2 credit">
+                        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Anonymous Drinker</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.flickr.com/photos/15923063@N00/8686574743" rel="dct:source">this</a> work.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-     <script type="text/javascript">
-                $.ajax({
-                    url: 'http://api.randomuser.me/',
-                    dataType: 'json',
-                    success: function(data){
-                        console.log(data);
-                        console.log(data.results[0].user.picture.medium);
-                        $("#image-{{post.modal-id}}").attr('src',data.results[0].user.
-                            picture.medium);
-                        $("#modal-image-{{post.modal-id}}").attr('src',data.results[0].user.picture.large);
-                    }
-                });
-                </script>
+
 {% endfor %}

@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 1
+date: 2015-07-29
+img: drink.jpg
+alt: image-alt
+project-date: Juillet 2015
+client: Corinne G.
+category:
+description: Je suis une alcoolique, j'ai fait une cure de 3 semaines à St Luc qui ne m'a rien apporté, à part 4 valium par jour. Lorsque je suis rentrée chez moi, j'ai continué à boire et ma fille m'a retrouvée un jour au matin dans un état lamentable, j'ai de nouveau été embarquée en ambulance. Le traitement qui m' a été octroyé ne me correspondait pas du tout donc quand je suis sortie de clinique , j'ai de nouveau continué à boire, boire, boire.. jusqu'au jour où je suis allée passer une visite au CHR et là , il a été décidé de m'hospitaliser. Le traitement qui m' a été donné correspondait tout à fait à mes  besoins. Entre temps via ma fille, j'ai rencontré Marianne Bousson pour la première fois en mai et de séance en séance, il s'est avéré que cette personne m'apportait beaucoup et était toujours à l'écoute. Je me suis sentie comprise, non jugée. Cela m'a apporté un soutien moral et psychologique, une écoute attentive lorsque je ne me sentais pas bien et que je pouvais l'appeler. Aujourd'hui, peu à peu ma fille me fait confiance et moi je me sens bien, je suis sobre. Je témoigne après ma séance et j'ai dit Mais que ça me fait du bien.
+issue: DEPENDANCE A L'ALCOOL
+---

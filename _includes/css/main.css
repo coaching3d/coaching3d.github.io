@@ -474,7 +474,7 @@ blockquote p {
 }
 
 .img-text {
-    float: right;    
+    float: right;
     padding: 5px;
 }
 
@@ -484,3 +484,7 @@ blockquote p {
       }
 a { color: inherit; }
 a:hover { color: inherit; }
+
+.credit {
+  font-size: 11px
+}
