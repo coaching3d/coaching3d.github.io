@@ -3,7 +3,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{ site.title }} - {{ site.author }}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="identifier-url" content="http://www.coaching-concept3d.be">
+    <meta name="language" content="fr">
+    <meta name="robots" content="all">
+    <meta http-equiv="Content-Language" content="fr">
+    <meta name="geo.placename" content="Namur, Belgique">
+    <meta property="og:title" content="{{ site.title }} - {{ site.author }}">
+    <meta property="og:site_name" content="{{ site.title }} ">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.coaching-concept3d.be">
+    <meta property="og:image" content="http://www.coaching-concept3d.be/img/small-logo-alpha.png">
+    <meta property="og:video" content="https://www.youtube.com/embed/05W2Vpu-iWM">
+    <meta name="keywords" content="coaching mental, coaching, hypnose, erickson, ericksonienne, mental, coach, programmation, neuro, linguistique, pnl, marianne, bousson">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
